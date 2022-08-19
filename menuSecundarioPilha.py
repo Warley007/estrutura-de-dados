@@ -52,7 +52,6 @@ def menuSecundarioPilha():
         elif operacaoSecundaria == 4:
             os.system("cls")
             print("\t\t\tOpção buscar um determinado elemento na pilha")
-            objetoPilha.mostrar()
             if objetoPilha.verificaPilhaVazia() == -1:
                 print("\nErro: impossível executar operação em pilha vazia!")
             else:
